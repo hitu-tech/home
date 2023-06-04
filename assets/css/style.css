@@ -826,6 +826,18 @@ main {
   line-height: 1.6;
 }
 
+.calendly-container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 480px) {
+    .calendly-container {
+        min-width: 320px;
+        height: 600px; /* Adjust the height as needed */
+    }
+}
+
 
 /**
  * skills 
